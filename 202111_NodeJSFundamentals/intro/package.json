@@ -1,0 +1,16 @@
+{
+  "name": "202111_nodejsfundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "dev": "nodemon --ignore 'test/**/*' ./hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./hello.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
